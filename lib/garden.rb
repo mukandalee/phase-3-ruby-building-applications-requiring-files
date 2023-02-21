@@ -1,4 +1,5 @@
-# Something is missing here
+require_relative './plant'
+# It is important to note that both require and require_relative will not load local variables — only methods, modules, and classes.
 
 class Garden
   attr_accessor :name
